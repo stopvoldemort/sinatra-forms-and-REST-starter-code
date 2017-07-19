@@ -11,7 +11,11 @@ books['items'].each do |item|
   book = Book.new
   book.title = item["volumeInfo"]["title"]
   book.snippet = item["volumeInfo"]["description"]
-  author = item['volumeInfo']['authors'].first
+  if item['volumeInfo']['authors']
+    author = item['volumeInfo']['authors'].first
+  else
+    author = 'No Author'
+  end
   first_name = author.split(" ").first
   last_name = author.split(" ").last
 
