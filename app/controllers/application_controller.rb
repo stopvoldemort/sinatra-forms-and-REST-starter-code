@@ -5,5 +5,5 @@ class ApplicationController < Sinatra::Base
     erb :'index.html'
   end
 
-  
+
 end
