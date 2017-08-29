@@ -1,10 +1,24 @@
 ## Sinatra
 
+## Performing CRUD Actions on a Resource
+
+## Objectives
+- Understand how the CRUD actions map to RESTful routes
+
+
 ### Deliverables
 
-As a site visitor, I should be able to see a list of authors
+For each of the deliverables consider what route(s) are necessary
 
-As a site visitor, I should be able to see a list of books. I should be able to click on each book title to see more information about that book.
+#### Read
+- As a site visitor, I should be able to see a list of all the books
+- As a site visitor, I should be able to see info about an individula book
 
+#### Create
+- As a site visitor, I should be able to create a new book
 
-As a site visitor, I should be able to see a form where I create a book. When I create a book I can associate it with an existing author.
+#### Update
+- As a site visitor, I should be able to edit an existing book
+
+#### Destroy
+- As a site visitor, I should be able to delete a book from the database

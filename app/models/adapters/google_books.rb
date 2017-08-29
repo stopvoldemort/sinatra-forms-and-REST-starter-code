@@ -22,20 +22,6 @@ module GoogleBooks
 
         book.snippet = item["volumeInfo"]["description"]
 
-        if item['volumeInfo']['authors']
-          author = item['volumeInfo']['authors'].first
-        else
-          author = 'No Author'
-        end
-
-        first_name = author.split(" ").first
-        last_name = author.split(" ").last
-
-        book.author = Author.find_or_create_by(
-        first_name: first_name,
-        last_name: last_name
-        )
-
         book.save
       end
     end
