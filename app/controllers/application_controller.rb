@@ -1,9 +1,8 @@
-class ApplicationController < Sinatra::Base
-  set :views, 'app/views'
+class ApplicationController < BookController
+  # set :views, 'app/views'
 
-  get '/' do
-    erb :'index.html'
-  end
+
+
 
 
 end

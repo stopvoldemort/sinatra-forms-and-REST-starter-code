@@ -12,7 +12,7 @@ For each of the deliverables consider what route(s) are necessary
 
 #### Read
 - As a site visitor, I should be able to see a list of all the books
-- As a site visitor, I should be able to see info about an individula book
+- As a site visitor, I should be able to see info about an individual book
 
 #### Create
 - As a site visitor, I should be able to create a new book

@@ -8,5 +8,9 @@
   <h1>Hello World</h1>
   <p>We are building an app to look at books</p>
   <a href='/books'>See All Books</a>
+  <% @books.each do |book| %>
+      <ol> <%= book.title %> </ol>
+  <% end %>
+
 </body>
 </html>
